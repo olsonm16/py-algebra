@@ -5,8 +5,11 @@ A polynomial is formed from some user input that looks like "x^2 + bx + c".
 General polynomial: ax^n + bx^n-1 + cx^n-2 + ... + dx + e.
 
 We'll build a list of constants:
+
 List, [a, b, c, ...., d, e]
+
 Elements in the list are 0 if the constant for a term is 0, or rather, there is no x raised to that power.
+
 For example, if we had the poly x^2 - 4, the list would be [1, 0, -4]
 
 To use the polynomial functionality (a quadratic solver and an evaluator), download a zip of this repo, open Terminal, go to the directory of the unzipped repo, and enter into a simple ti89 emulator:
